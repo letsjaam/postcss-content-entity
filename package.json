@@ -17,19 +17,34 @@
   },
   "homepage": "https://github.com/komarnitskyi/postcss-content-entity",
   "dependencies": {
-    "html-entities": "^1.2.0",
-    "postcss": "^5.2.6"
+    "html-entities": "^2.3.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.0"
   },
   "devDependencies": {
-    "eslint": "^3.10.2",
-    "eslint-config-postcss": "^2.0.2",
-    "jest": "^17.0.2"
+    "@logux/eslint-config": "^47.2.0",
+    "eslint": "^8.18.0",
+    "eslint-config-postcss": "^4.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-let": "^3.0.1",
+    "eslint-plugin-prettierx": "^0.18.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "jest": "^28.1.0",
+    "postcss": "^8.4.0"
   },
   "scripts": {
     "test": "jest && eslint *.js"
   },
   "eslintConfig": {
-    "extends": "eslint-config-postcss/es5",
+    "extends": "eslint-config-postcss",
     "env": {
       "jest": true
     }
